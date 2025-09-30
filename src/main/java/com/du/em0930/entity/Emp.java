@@ -1,23 +1,23 @@
-package com.du.valid01.entity;
+package com.du.em0930.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
 
-@Builder
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
-@ToString
 @Entity
-@Table(name = "users")
-public class MyUser {
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+@Builder
+public class Emp {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
-
+    private Long id;
     private String name;
-
     private String email;
 
-    private String password;
+    @ManyToOne
+    @JoinColumn(name = "dept_id")
+    private Dept dept;
 }

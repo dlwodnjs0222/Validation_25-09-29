@@ -1,12 +1,11 @@
-package com.du.valid01.controller;
+package com.du.em0930.controller;
 
-import com.du.valid01.dto.UserRequest;
-import com.du.valid01.entity.MyUser;
-import com.du.valid01.repository.UserRepository;
-import com.du.valid01.util.PassWordUtil;
+import com.du.em0930.dto.UserRequest;
+import com.du.em0930.entity.MyUser;
+import com.du.em0930.repository.UserRepository;
+import com.du.em0930.util.PassWordUtil;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import org.mindrot.jbcrypt.BCrypt;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;

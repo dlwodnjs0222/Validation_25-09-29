@@ -1,13 +1,13 @@
-package com.du.valid01;
+package com.du.em0930;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Valid01Application {
+public class Em0930Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Valid01Application.class, args);
+        SpringApplication.run(Em0930Application.class, args);
     }
 
 }

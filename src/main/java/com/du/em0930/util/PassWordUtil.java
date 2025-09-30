@@ -1,4 +1,4 @@
-package com.du.valid01.util;
+package com.du.em0930.util;
 
 import org.mindrot.jbcrypt.BCrypt;
 

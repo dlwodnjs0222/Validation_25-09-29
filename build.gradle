@@ -6,7 +6,7 @@ plugins {
 
 group = 'com.du'
 version = '0.0.1-SNAPSHOT'
-description = 'valid01'
+description = 'Em0930'
 
 java {
     toolchain {
@@ -32,6 +32,7 @@ dependencies {
     // BCrypt만 별도로 사용
     implementation 'org.mindrot:jbcrypt:0.4'
     implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.5'
+    implementation("mysql:mysql-connector-java:8.0.33")
     compileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     runtimeOnly 'com.h2database:h2'

@@ -1,6 +1,6 @@
-package com.du.valid01.repository;
+package com.du.em0930.repository;
 
-import com.du.valid01.entity.MyUser;
+import com.du.em0930.entity.MyUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
